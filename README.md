@@ -1,7 +1,11 @@
 # KrumaLabs Next.js Starter Template
 
 <div align="center">
-  <img src="public/logo/Logo.svg" alt="KrumaLabs Logo" width="200"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo/Logo-white.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="logo/Logo-black.svg" />
+    <img alt="KrumaLabs Logo" src="logo/Logo-black.svg" width="200" />
+  </picture>
   <h3 align="center">A Modern Next.js Starter Template</h3>
 </div>
 
