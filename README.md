@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KrumaLabs Next.js Starter Template
 
-## Getting Started
+<div align="center">
+  <img src="public/logo/Logo.svg" alt="KrumaLabs Logo" width="200"/>
+  <h3 align="center">A Modern Next.js Starter Template</h3>
+</div>
 
-First, run the development server:
+## 🚀 Features
 
+- ⚡️ **Next.js 15** - The latest version of Next.js for optimal performance
+- 🎨 **Tailwind CSS** - A utility-first CSS framework
+- 🎯 **Shadcn UI** - High-quality, customizable components
+- 📝 **ESLint** - Pluggable JavaScript linter
+- 🔍 **TypeScript** - Static type checking
+- 📱 **Responsive Design** - Mobile-first approach
+- 🎭 **Modern UI/UX** - Clean and intuitive user interface
+
+## 📦 Getting Started
+
+1. Clone this template:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm create next-app -e https://github.com/theodenanyoh11/krumalabs-nextjs-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 15
+- **Styling:** Tailwind CSS
+- **UI Components:** Shadcn UI
+- **Language:** TypeScript
+- **Linting:** ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/                # Next.js app directory
+├── components/         # Reusable components
+├── public/            # Static assets
+├── styles/           # Global styles
+└── types/            # TypeScript types
+```
 
-## Deploy on Vercel
+## 🔗 Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [KrumaLabs Innovation Lab](https://www.krumalabs.com)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Shadcn UI Documentation](https://ui.shadcn.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🙏 Credits
+
+Created by [KrumaLabs Innovation Lab](https://www.krumalabs.com)
