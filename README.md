@@ -2,9 +2,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="public/logo/Logo-white.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="public/logo/Logo-black.svg" />
-    <img alt="KrumaLabs Logo" src="public/logo/Logo-black.svg" width="200" />
+    <source media="(prefers-color-scheme: dark)" srcset="./public/logo/Logo-white.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./public/logo/Logo-black.svg" />
+    <img alt="KrumaLabs Logo" src="./public/logo/Logo-black.svg" width="200" />
   </picture>
   <h3 align="center">A Modern Next.js Starter Template</h3>
 </div>
